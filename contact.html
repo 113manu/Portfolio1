@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Manasa Portfolio</title>
+
+  <!-- ✅ Link to your main CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ✅ Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- ✅ Header with logo and responsive nav -->
+  <header>
+    <div class="logo">Manasa.</div>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ✅ Contact section -->
+  <section class="contact-section">
+    <div class="contact-left">
+      <h2>Contact Me</h2>
+      <p><i class="fas fa-envelope"></i> manasarampentimani@gmail.com</p>
+      <p><i class="fas fa-phone"></i> 09502929528</p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <a href="RESUME-5.pdf" download class="btn download-btn">Download CV</a>
+
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>© 2025 Manasa Ram. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Mobile nav toggle script -->
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
+
+
